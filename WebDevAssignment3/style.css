@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+}
+#head_top {
+    background-color: red;
+    padding: 30px 0;
+    padding-right: 70px;  
+}
+#head_bottom {
+    padding: 20px 0;
+}
+#logo_head {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+#bg {
+    position: relative;
+    right: 300px;   
+}
+.top_link {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.bottom_link {
+    text-decoration: none;
+    color: black;
+    margin-right: 70px
+}
+#description {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    left: 150px;
+    top: 610px;
+  }
+
+#description1 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    left: 150px;
+    top: 750px;
+  }
+  #description2 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    left: 150px;
+    top: 650px;
+  }
+  #description3 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    left: 150px;
+    top: 770px;
+  }
+.bottom_link:hover {
+    border-bottom: 1px solid red;
+}
+
+.btn {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    background-color: rgb(176, 9, 49) ;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 20px;
+}
+.select{
+    right: 10%;
+    margin-top: -50%;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    margin-left: 400px;
+    text-align: center;
+    height: 70px;
+    width: 700px;
+    border-radius:60px;
+    display:inline-block;
+    background:#7a7a7a;
+  }
+  .selectBox{
+   
+    float:left; 
+    position: relative;
+    margin-bottom: 10%;
+    margin-top: -50px;
+    border-radius:36px;
+    margin-left: 50%;
+    width:250px;
+    height:40px;
+    border:0px;
+    text-align: center;
+    position: relative;
+  }
+  .top_link1:focus { pointer-events:none; }
